@@ -13,6 +13,7 @@
 		C38C96FA2549F00F00278BC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38C96F92549F00F00278BC6 /* Preview Assets.xcassets */; };
 		C38C97052549F00F00278BC6 /* applicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C97042549F00F00278BC6 /* applicationTests.swift */; };
 		C38C97102549F00F00278BC6 /* applicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C970F2549F00F00278BC6 /* applicationUITests.swift */; };
+		C38C97212549F08300278BC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38C97202549F08300278BC6 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		C38C970B2549F00F00278BC6 /* applicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = applicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38C970F2549F00F00278BC6 /* applicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = applicationUITests.swift; sourceTree = "<group>"; };
 		C38C97112549F00F00278BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38C97202549F08300278BC6 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		C38C96F12549F00D00278BC6 /* application */ = {
 			isa = PBXGroup;
 			children = (
+				C38C97202549F08300278BC6 /* Main.storyboard */,
 				C38C96F22549F00D00278BC6 /* applicationApp.swift */,
 				C38C96F42549F00D00278BC6 /* ContentView.swift */,
 				C38C96F62549F00F00278BC6 /* Assets.xcassets */,
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38C97212549F08300278BC6 /* Main.storyboard in Resources */,
 				C38C96FA2549F00F00278BC6 /* Preview Assets.xcassets in Resources */,
 				C38C96F72549F00F00278BC6 /* Assets.xcassets in Resources */,
 			);
